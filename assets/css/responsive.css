@@ -555,9 +555,8 @@
         background: #eef3f9;
     }
     .main_menu_area .logo:before {
-        top: -30px;
-        right: 43%;
-        height: 155px;
+
+        height: 0;
     }
     .main_menu_area .header-social-right ul {
         text-align: center;
@@ -1581,7 +1580,7 @@
     .main_menu_area .logo:before {
         top: -30px;
         right: 45%;
-        height: 170px;
+
     }
     .main_menu_area .header-social-right ul {
         text-align: left;
