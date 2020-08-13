@@ -1,8 +1,8 @@
 /*------------------------------------------------------------------
-    Template Name:  Refix
+    Template Name:  UnitedCopnay
     Version: 1.0
-    Author: Layerdrops
-    Author Email: layerdrops@gmail.com
+    Author: Amenkahled
+    Author Email: Aminabdo8@gmail.com
 
     [Table of Content]
 
@@ -21,6 +21,17 @@
 
 
 */
+function outerFunction() {
+    let num1 = 15;
+
+    return function(num2) {
+        console.log(num1 + num2);
+    };
+}
+
+let result = outerFunction();
+
+result(5);
 
 (function ($) {
     "use strict";
